@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 50px;
+    position: relative;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-bottom: 75px;
+}
+
+footer p {
+    font-size: 1em;
+    padding-left: 0.5em;
+}
+
+a {
+  color: #f5f5dd;
+}
+
+.description {
+    padding-top: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.credit {
+  display: none;
+}
+
+.youtube {
+   padding: 170px;
+}
+
+.form-control {
+    width: 80%;
+}
+
+.contactinfo {
+    text-align: center;
+    /* height: 130px; */
+}
+
+.carousel {
+    margin: -15px;
+}
+
+.anchor {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+
+}
+
+.map {
+    margin-top: 50px;
+}
+
+.work-img {
+    display: block;
+    margin: auto;
+    max-width: 200px;
+    position: relative;
+}
+
+.info {
+    position: absolute;
+    top: 15%;
+    left: 22%;
+    color:#fff;
+    font-family:Futura;
+    text-transform:uppercase;
+    letter-spacing:0.5em;
+    line-height:1.6;
+    display: none;
+}
+
+.proj-title {
+    font-weight: 700;
+}
+
+.projectName {
+    text-transform: uppercase;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+.btn-primary {
+    float: right;
+    padding: 15px;
+    border-color: #7ec2c3;
+    background-color: #7ec2c3;
+}
+
+.main-text h2 {
+    text-align: center;
+}
+
+.skills h2 {
+    text-align: center;
+}
+
+.footer a:active {
+    color: #ff0000;
+}
+
+#faq {
+    padding-bottom: 100px;
+}
+
+#contact {
+    background-image: url("../img/sky1.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    padding:100px;
+    width: 100%;
+    padding-bottom: 500px;
+    margin-bottom: 0;
+    height: 400px;
+}
+
+#work {
+    background-image: url("../img/sky1.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    padding:100px;
+    width: 100%;
+    padding-bottom: 500px;
+    height: 400px;
+}
+
+#skill-list {
+    margin-left: 50px;
+}
+
+#learn-modal {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#modalembed {
+    height: 1200px;
+    width: 100%;
+    padding: 10px;
+}
+
+#map {
+    height: 300px;
+    width: 100%;
+}
+
+#faq h1 {
+    margin-bottom: 50px;
+}
+
+
+
+/*Typography*/
+
+body {
+    background-color: #c0e8c126;
+    color: #34495e;
+    margin-top: 50px;
+}
+
+h1, h2, h3 {
+    font-family: 'Crimson Text', Helvetica, Arial, sans-serif;
+}
+
+p, li {
+    font-family: 'Crimson Text', Candara, Tahoma, serif;
+    font-size: 1.5em;
+}
+
+.skills {
+    padding: 15px;
+}
+
+.panel-body, .panel-title {
+    font-family: 'Crimson Text', Tahoma, serif;
+    font-size: 1.4em
+}
+
+.panel-title {
+    font-size: 2em;
+}
+
+.panel-default>.panel-heading {
+    background-color: #7fc2c3;
+    color: floralwhite;
+}
+
+.intro p {
+    font-size: 1.5em;
+    font-weight: 100;
+    -webkit-margin-before: 0;
+}
+
+.projectName p {
+    color: #f5f5dd;
+    letter-spacing: .1em;
+
+}
+
+.header h1 {
+    text-align: center;
+    font-size: 5em;
+}
+
+.carousel-inner p {
+    font-family: 'Crimson Text', Helvetica, sans-serif;
+    font-size: 2em;
+    color: beige;
+}
+
+#work, #contact h1 {
+    color: beige;
+}
+
+#contact p {
+  color: beige;
+}
+
+@media (max-width: 768px)  {
+    .workicons {
+      margin-bottom: 30px
+    }
+    #work {
+      padding-bottom: 1000px;
+    }
+
+    #contact {
+      padding: 0px 0px 700px 0px;
+    }
+}

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alphonso's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+ </head>
+ <body data-spy="scroll" data-target=".navbar">
+    <!-- Nav starts here -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+       <div class="container-fluid">
+          <div class="navbar-header">
+             <button type="button" class="navbar-toggle" data-toggle="collapse"
+                data-target=".navbar-collapse">
+             <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             </button>
+             <div class="projectName">
+                <p>Alphonso Tran</p>
+             </div>
+             <!--end projectName -->
+          </div>
+          <div class="navbar-collapse collapse">
+             <ul class="nav navbar-nav navbar-right">
+                <li><a href="#index">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+             </ul>
+          </div>
+       </div>
+    </nav>
+    <!-- Nav ends here -->
+    <!-- Carousel starts here -->
+    <div class="container-fluid" id="index">
+       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+             <div class="item active">
+                <img src="img/mountain2.jpeg" alt="carousel1">
+                <div class="carousel-caption">
+                   <p>Build Meaningful Things</p>
+                </div>
+             </div>
+             <div class="item">
+                <img src="img/mountain4.jpeg" alt="carousel2">
+                <div class="carousel-caption">
+                   <p>Build Beautiful Things</p>
+                </div>
+             </div>
+             <div class="item">
+                <img src="img/mountain8.jpeg" alt="carousel3">
+                <div class="carousel-caption">
+                   <p>Build Helpful Things</p>
+                </div>
+             </div>
+          </div>
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+          </a>
+       </div>
+    </div>
+    <div class="container description">
+    </div>
+    <!-- /container -->
+    <!-- About -->
+    <div class="container anchor" id="about">
+       <div class="header">
+          <h1>About Myself</h1>
+       </div>
+       <!-- end header -->
+       <div class="row">
+          <div class="col-xs-12 col-md-6">
+             <img src="img/profile.jpg" class="img-responsive" alt="picture">
+          </div>
+          <!-- end image -->
+          <div class="col-xs-12 col-md-6 main-text">
+             <h2>My Story <span class="glyphicon glyphicon-tree-deciduous"></span></h2>
+             <p>
+                As a medical researcher who has refactored into a full stack web developer in 2017, I bring a fresh perspective to tech with strong analytical skills, adaptability, and open-mindedness. I decided to pursue tech in order to solve meaningful problems by building rapid, practical solutions with my own hands and a keyboard. My greatest joy is sharing this passion with like-minded individuals and coming up with creative answers to everyday problems.
+             </p>
+          </div>
+          <div class="col-xs-12 col-md-6 skills">
+             <h2>Current Languages Spoken  <span class="glyphicon glyphicon-education"></span></h2>
+             <ul id="skill-list">
+                <li>JavaScript</li>
+                <li>Ruby</li>
+                <li>Solidity</li>
+             </ul>
+          </div>
+       </div>
+    </div>
+    <!-- End About -->
+    <!-- Work -->
+    <div class="container anchor" id="work">
+       <div class="header">
+          <h1>Works</h1>
+       </div>
+       <div class=”row id="works">
+       </div>
+    </div>
+    <!-- End Work -->
+    <!-- FAQ -->
+    <div class="container anchor" id="faq">
+       <div class="header">
+          <h1>Frequently Asked Questions</h1>
+       </div>
+       <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+             <div class="panel-heading">
+                <h4 class="panel-title">
+                   <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="glyphicon glyphicon-leaf"></span>
+                   Why did I decide to become a web developer?
+                   </a>
+                </h4>
+             </div>
+             <div id="collapseOne" class="panel-collapse collapse in">
+                <div class="panel-body">
+                   I have always been interested in computers growing up. I would build computers and play around with MS-DOS when I was little. As I got older and worked in medical research, I would catch myself tinkering with lab and medical software to "optimize" its use. Overtime, I came to realize that both medicine and programming are not exclusive, so I joined a full-stack web developer bootcamp to transition into the world of tech. I am enjoying where I am in this point of my life. In the future, I hope to merge medicine and tech together.
+                </div>
+             </div>
+          </div>
+          <div class="panel panel-default">
+             <div class="panel-heading">
+                <h4 class="panel-title">
+                   <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="glyphicon glyphicon-leaf"></span>
+                   How long have I been coding?
+                   </a>
+                </h4>
+             </div>
+             <div id="collapseTwo" class="panel-collapse collapse">
+                <div class="panel-body">
+                   I've been coding ever since February 2017. My journey has just started!
+                </div>
+             </div>
+          </div>
+          <div class="panel panel-default">
+             <div class="panel-heading">
+                <h4 class="panel-title">
+                   <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span class="glyphicon glyphicon-leaf"></span>
+                   What is my go-to tech stack?
+                   </a>
+                </h4>
+             </div>
+             <div id="collapseThree" class="panel-collapse collapse">
+                <div class="panel-body">
+                   At the moment, my tech stack includes a broad range of languages and frameworks including JavaScript, Ruby, Solidity, NodeJS, React and React Native, and many others. As a person who is always constantly trying to learn new things, I am currently learning and developing decentralized apps based on Solidity at the moment. I am hopeful that my next chapter in life will involve jumping into the field of Machine Learning and AI.
+                </div>
+             </div>
+          </div>
+       </div>
+       <div class="row" id="learn-modal">
+          <div class="modal-button">
+             <button class="btn btn-primary" data-toggle="modal" data-target=".small-modal">View CV</button>
+          </div>
+          <div class="modal fade small-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+             <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                   <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title" id="myModalLabel">CV</h4>
+                   </div>
+                   <div class="modal-body">
+                      <embed id="modalembed" src="files/Alphonso_Tran_Resume.pdf">
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+       <!-- End Modal Window -->
+    </div>
+    <!-- End FAQ -->
+    <!-- Contact -->
+    <div class="container anchor" id="contact">
+       <div class="col-xs-12 col-md-6">
+          <div class="header">
+             <h1>Contact</h1>
+          </div>
+          <div class="contactinfo">
+             <p>For specific inquiries, please reach me at</p>
+             <p>
+                <a href="https://www.linkedin.com/in/alphonsotran">LinkedIn</a>
+                <span class="glyphicon glyphicon-user"></span>
+             </p>
+             <p>
+                <a href="https://www.github.com/alphonsotran">GitHub</a>
+                <span class="glyphicon glyphicon-briefcase"></span>
+             </p>
+             <p>
+               <a href="#">alphonsotran@gmail.com</a>
+               <span class="glyphicon glyphicon-envelope"></span>
+             </p>
+          </div>
+       </div>
+       <div class="col-sm-12 col-md-6 map">
+          <div id="map"></div>
+       </div>
+    </div>
+    <!-- End Contact -->
+    <footer>
+       <p>&copy; Alphonso Tran 2018</p>
+       <div class="credit">
+          <p>Icons made by <a href="https://www.flaticon.com/authors/pixel-buddha" title="Pixel Buddha">Pixel Buddha</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+          <p>
+       </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/work.js"></script>
+    <script src="js/scripts.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQFaNVB19ses4x-8Q8XLqki0mFkT1e9F0&callback=initMap"></script>
+ </body>
+</html>
